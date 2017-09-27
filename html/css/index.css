@@ -38,7 +38,12 @@ color:#fff;
 	padding-right:20px;
 	
 }*/
-
+.header-xx-c-z a{
+    color: white;
+}
+.header-xx-c-z a:hover{
+    color: white;
+}
 .thenav{
 	background-color:#0b5ab1;
 	padding-top:10px;
@@ -71,6 +76,17 @@ padding-top:0px!important;
 	margin-left:40px;
 	cursor:pointer;
 }
+.customer{
+    display:inline-block;
+    width:110px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 10px;
+}
 
 .nav-qt:hover{
 background-color:#36b2d2;
@@ -80,10 +96,25 @@ background-color:#36b2d2;
 	padding:0px 15px!important;
 }
 
+.header-xx-c-e.col-xs-8{
+    padding-left: 44px;
+    background: url(../img/email_icon_u3.png) no-repeat 20px 5px;
+    background-size: 16px;
+}
+
 .navbar-nav>.open>a{
-border-bottom:3px solid #ADF9F8;
+    position: relative;
 background-color:#0b5ab1!important;
 color:#ADF9F8!important;
+}
+.navbar-nav>.open>a:after{
+    height: 3px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    content: '';
+    background-color: #ADF9F8;
 }
 
 .navbar-nav>li>a{
@@ -92,6 +123,15 @@ color:#fff!important;
 
 .navbar-nav>li>a:hover{
 color:#ADF9F8!important;
+}
+.nav.navbar-nav{
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav.navbar-nav>li{
+    margin-left: 70px;
+    margin-right: -30px;
 }
 
 .the-dropdown{
@@ -455,7 +495,7 @@ cursor:pointer;
 .choose-xx>ul>li{
 	padding:10px 0px;
 	margin:20px 0px;
-	word-break: break-all;
+	word-break: keep-all;
 }
 
 .choose-xx-1,.choose-xx-2,.choose-xx-4,.choose-xx-5{
@@ -481,7 +521,7 @@ height:100px;
 
 /*body-banner start*/
 	.body-banner{
-		background:url(../img/body-bannner_11.jpg);
+		background:url(../img/body-bannner_11.jpg) no-repeat center center;
 		width:100%;
 		height:150px;
 		background-size:cover;
@@ -529,7 +569,7 @@ padding-top:40%;
 
 .about-k-zs-h{
 height:425px;
-padding-top:20%;
+padding-top:10%;
 }
 
 .about-k-zs-z-k h5{
@@ -574,8 +614,21 @@ width:100%;
 /*footer start*/
 footer{
 background-color:#222324;
-color:#9c9c9c;
+color:#ddd;
 padding:35px 0px;
+}
+
+footer  li{
+    white-space: nowrap;
+}
+
+footer li strong{
+    color: #2c9ee6;
+}
+footer li.payment img{
+    width: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .footer1-1{
