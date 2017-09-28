@@ -30,22 +30,16 @@ color:#fff;
 }
 
 .header-xx-c{
-	padding-top:10px;
+	padding-top:5px;
 }
 
 .header-xx-c-e,.header-xx-c-z{
-	padding-bottom:10px;
+	padding-bottom:6px;
 }
 
-/*
-.header-xx-c-z{
-	float:right;
-	text-align:right;
-	padding-right:20px;
-	
-}*/
 .header-xx-c-z a{
     color: white;
+    font-size: 12px;
 }
 .header-xx-c-z a:hover{
     color: white;
@@ -92,19 +86,19 @@ padding-top:0px!important;
 	background-color:#2eccff;
 	color:#fff;
 	padding:10px 12px;
-	border-radius:5px;
+	border-radius:4px;
 	margin-left:40px;
 	cursor:pointer;
 }
 .customer{
     display:inline-block;
-    width:110px;
+    width:106px;
     padding: 0px;
     text-decoration: none;
     text-align: center;
-    font-size: 10px;
-    height: 24px;
-    line-height: 24px;
+    font-size: 10px !important;
+    height: 20px;
+    line-height: 20px;
     margin-right: 10px;
 }
 
@@ -151,7 +145,7 @@ color:#ADF9F8!important;
 }
 .nav.navbar-nav>li{
     margin-left: 30px;
-    margin-right: -40px;
+    margin-right: -54px;
 }
 
 .the-dropdown{
@@ -511,11 +505,13 @@ cursor:pointer;
 .choose-xx{
 	margin-top:50px;
 }
+.choose-xx ul{
+    margin-bottom: 0px;
+}
 
 .choose-xx .choose-xx-w.item_center{
     height: 100px;
-    align-items: center;
-    -webkit-align-items: center;
+    margin-top: 10px;
 }
 .choose-xx .choose-xx-w.item_center p{
     margin-bottom: 0px;
@@ -527,7 +523,7 @@ cursor:pointer;
 
 .choose-xx>ul>li{
 	padding:10px 0px;
-	margin:20px 0px;
+	margin:20px 0px 0px;
 	word-break: keep-all;
 }
 
@@ -561,9 +557,14 @@ height:100px;
 	}
 /*body-banner end*/
 
+.body-banner-sec{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 
 /*about start*/
 .theAbout{
+    padding-top: 90px;
 background-color:#f8f8f8;
 }
 
@@ -647,8 +648,8 @@ width:100%;
 /*footer start*/
 footer{
 background-color:#222324;
-color:#ddd;
-padding:35px 0px;
+color:#aaa;
+padding:35px 0px 10px;
 }
 
 footer .footerk1{
@@ -658,12 +659,18 @@ footer .footerk1{
     justify-content: space-between;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 16px;
 }
-
+footer .footerk1>div>ul{
+    margin: auto;
+    float: none;
+}
 footer .footer3{
     width: 230px;
 }
-
+footer .footerk1>.footer3>ul{
+    float: left;
+}
 footer  li{
     white-space: nowrap;
 }
@@ -683,10 +690,11 @@ padding:15px 0px;
 
 .footerk2{
 border-top:1px solid #211e1e;
-padding:10px 0px;
+padding:16px 0px 0px;
 }
 .footerk2>p{
     margin-left: 30px;
+    color: #aaa;
 }
 
 .footer3-loge-k{
